@@ -9,6 +9,13 @@
     url(https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Thin.otf) format('opentype');
 }
 
+body{
+  font-family: "Droid Sans", "游ゴシック", YuGothic, "メイリオ", Meiryo, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ＭＳ Ｐゴシック", sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding 0;
+}
+
 .clearfix:after {
   content: "";
   clear: both;
