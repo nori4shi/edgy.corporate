@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="268px" height="160px" viewBox="0 0 268 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-size="12" font-family="HiraginoSans-W3, Hiragino Sans" font-weight="300">
+        <g id="Group" fill="#666666">
+            <text id="所在地">
+                <tspan x="0" y="36">所在地</tspan>
+            </text>
+            <text id="設立">
+                <tspan x="0" y="118">設立</tspan>
+            </text>
+            <text id="2017年11月">
+                <tspan x="84" y="118">2017年11月</tspan>
+            </text>
+            <text id="社名">
+                <tspan x="0" y="11">社名</tspan>
+            </text>
+            <text id="株式会社-EDGY">
+                <tspan x="84" y="11">株式会社 EDGY</tspan>
+            </text>
+            <text id="代表者">
+                <tspan x="0" y="93">代表者</tspan>
+            </text>
+            <text id="登地-巧和">
+                <tspan x="84" y="93">登地　巧和</tspan>
+            </text>
+            <text id="事業内容">
+                <tspan x="0" y="143">事業内容</tspan>
+            </text>
+            <text id="システム開発及び運用-コンサルティング">
+                <tspan x="84" y="143">システム開発及び運用</tspan>
+                <tspan x="84" y="159">コンサルティング</tspan>
+            </text>
+            <text id="〒542-0081-大阪府大阪市中央区南">
+                <tspan x="84" y="36">〒542-0081</tspan>
+                <tspan x="84" y="52">大阪府大阪市中央区南船場4-10-5</tspan>
+                <tspan x="84" y="68">南船場SOHOビル 702</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

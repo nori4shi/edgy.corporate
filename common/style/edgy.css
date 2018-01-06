@@ -1,0 +1,365 @@
+
+@font-face {
+    font-family: 'Noto Sans CJK JP';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Noto Sans CJK JP Light'),
+    url(https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Thin.woff2) format('woff2'),
+    url(https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Thin.woff) format('woff'),
+    url(https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Thin.otf) format('opentype');
+}
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.logo-area{
+  display:table;
+  position: fixed;
+  height:100%;
+  width:500px;
+  border-right:1px solid #eee;
+  left:0px;
+  top:0px;
+}
+
+.logo-area-wrap{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.navigation{
+  z-index:9999;
+  width:500px;
+  position:fixed;
+  left:370px;
+  top:20px;
+}
+
+.navigation ul{
+  list-style-type: none;
+  padding:0;
+  margin:0px;
+}
+
+.navigation ul li{
+   cursor:pointer;
+   width:22%;
+   text-align:right;
+   height:38px;
+   line-height:38px;
+   font-size:12px;
+   margin: 0 1%;
+}
+
+.navigation .pointer{
+  display:none;
+}
+
+.navigation-position{
+  position:fixed;
+  left:510px;
+  top:30px;
+}
+
+.navigation-position a{
+  display: block;
+  width:10px;
+  height:10px;
+  background-color:#fff;
+  border-radius: 10px;
+  border:4px solid #00bfff;
+  margin-bottom:20px;
+}
+
+.navigation-position .pointer{
+  position:absolute;
+  margin-left:4px;
+  margin-top:4px;
+  width: 10px;
+  height: 10px;
+  background-color:#00bfff;
+  border-radius: 10px;
+}
+
+.articles-warp{
+  opacity:0;
+}
+
+.articles{
+  position:fixed;
+  width:100%;
+  top:0px;
+  left:0px;
+}
+
+article{
+  display:table;
+  text-align: center;
+  width:100%;
+}
+
+article .wrap{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding-left:500px;
+}
+
+.about-text{
+  display:inline-block;
+  font-family: 'Noto Sans CJK JP', sans-serif;
+  font-weight: 100;
+  color: #000;
+  line-height: 1.5;
+  margin-bottom:20px;
+  font-size:24px;
+  text-align:center;
+  padding:0 20px;
+  width:650px;
+}
+
+.about-text .logo{
+  display:none;
+}
+
+.about-text hr{
+  display:none;
+}
+
+h2{
+  font-family: 'Noto Sans CJK JP', sans-serif;
+  font-weight: 100;
+  color: #000;
+  margin-bottom:20px;
+}
+
+.product{
+  display: inline-block;
+  width:500px;
+  padding:30px;
+  background-color:#fffafa;
+  text-align: left;
+}
+
+.product hr{
+  border:1px solid #eee;
+  margin:20px 0;
+}
+
+.product .icon{
+  float:left;
+  width:110px;
+  height:110px;
+  margin-right:15px;
+  border-radius: 10px;
+}
+
+.product .decription{
+  display:block;
+}
+
+.product .link{
+  text-align:center;
+}
+
+.product .link .website{
+  display:inline-block;
+  text-align: center;
+  padding:0 20px;
+  text-decoration: none;
+  background-color:#00bfff;
+  color:#fff;
+  width:180px;
+  height:40px;
+  font-size:18px;
+  border-radius: 20px;
+  line-height:40px;
+  vertical-align: top;
+}
+
+.product .link .app-store{
+  display:inline-block;
+  width:180px;
+  margin-left:30px;
+}
+
+.product h3{
+  margin:5px 0;
+  text-indent:0;
+}
+
+.company-info{
+  width:400px;
+}
+
+.contact{
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 20px;
+  width:250px;
+  height:40px;
+  line-height:40px;
+  color:#fff;
+  font-size:18px;
+  background-color:#00bfff;
+}
+
+.contact-text{
+  color:#999;
+  margin-top:20px;
+}
+
+.footer{
+  font-family: 'Noto Sans CJK JP', sans-serif;
+  position:absolute;
+  right:0px;
+  bottom:5px;
+  color:#999;
+  margin-right:20px;
+}
+
+/*
+ メディアクエリ
+*/
+@media screen and (max-width: 1024px){
+
+  .logo-area{
+    display:none;
+  }
+
+  .navigation{
+    z-index:9999;
+    width:100%;
+    position:fixed;
+    left:0;
+    top:0;
+    background-color:#fff;
+  }
+
+  .navigation ul{
+    list-style-type: none;
+    padding:0;
+    margin:0px;
+  }
+
+  .navigation ul li{
+     display:inline-block;
+     cursor:pointer;
+     width:21.8%;
+     height:60px;
+     line-height:60px;
+     font-size:12px;
+     margin: 0 1%;
+     text-align: center;
+  }
+
+  .navigation .pointer{
+    position:fixed;
+    display:inline-block;
+    border-bottom:2px solid #00bfff;
+    width:21%;
+    height:30px;
+    margin: 20px 2%;
+    top: 0px;
+  }
+
+  .navigation-position{
+    display:none;
+  }
+
+  .about-text{
+    width:initial;
+  }
+  .about-text .logo{
+    display:block;
+  }
+
+  .about-text .logo img{
+    width:40%;
+  }
+
+  .about-text hr{
+    display:block;
+    border:1px solid #eee;
+  }
+
+  .articles{
+    position:fixed;
+    width:96%;
+    top:0px;
+    left:0px;
+    margin: 0 2%;
+  }
+
+  article .wrap{
+    padding-left:0;
+  }
+
+  .company-info{
+    width:310px;
+  }
+
+}
+
+@media screen and (max-width: 600px){
+
+  .about-text .logo img{
+    width:50%;
+  }
+
+  .product{
+    width:initial;
+    text-align: center;
+    display: inline-block;
+    background-color:#fffafa;
+    padding:30px 15px;
+  }
+
+  .product .icon{
+    float:initial;
+    text-align: center;
+    margin-right:0;
+    border-radius: 10px;
+  }
+
+  .product .decription{
+    display:inline-block;
+    text-align: center;
+  }
+
+  .product .link{
+    text-align:center;
+  }
+
+  .product .link .website{
+    display:block;
+    text-align: center;
+    padding:0 20px;
+    text-decoration: none;
+    background-color:#00bfff;
+    color:#fff;
+    width:180px;
+    height:40px;
+    font-size:18px;
+    border-radius: 20px;
+    line-height:40px;
+    vertical-align: top;
+    margin:0 auto;
+  }
+
+  .product .link .app-store{
+    display:block;
+    width:180px;
+    margin:0;
+    margin:10px auto 0 auto;
+  }
+
+  .product h3{
+    margin:5px 0;
+    text-indent:0;
+  }
+}
