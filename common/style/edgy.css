@@ -283,6 +283,7 @@ h2{
   }
   .about-text .logo{
     display:block;
+    margin-top:60px;
   }
 
   .about-text .logo img{
@@ -300,6 +301,11 @@ h2{
     top:0px;
     left:0px;
     margin: 0 2%;
+  }
+
+  h2{
+    margin-top:60px;
+    margin-bottom:20px;
   }
 
   article .wrap{
