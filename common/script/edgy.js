@@ -21,6 +21,7 @@ $(function(){
   });
 
   /* スマホ用スワイプ関連イベント */
+  /*
   var swipe_start = 0;
   var swipe_end = 0;
   $(window).on("touchstart", function(e){
@@ -39,7 +40,7 @@ $(function(){
       move_article(active_article_no + 1);
     }
   })
-
+  */
   // ブラウザサイズに応じた初期化
   function initialize(){
     $("article").height(browser_height);
