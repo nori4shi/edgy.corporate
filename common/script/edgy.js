@@ -3,7 +3,7 @@ $(function(){
   var browser_height = $(window).height();
   var active_article_no = 0;
   var article_count = $("article").length -1;
-  var is_touch_device_flg = is_touch_device();
+  var is_small_screen_device = is_small_screen();
 
   initialize();
 
@@ -21,7 +21,6 @@ $(function(){
   });
 
   /* スマホ用スワイプ関連イベント */
-  /*
   var swipe_start = 0;
   var swipe_end = 0;
   $(window).on("touchstart", function(e){
@@ -40,12 +39,12 @@ $(function(){
       move_article(active_article_no + 1);
     }
   })
-  */
+
   // ブラウザサイズに応じた初期化
   function initialize(){
     $("article").height(browser_height);
     // スマホは実スクロールさせない
-    if(is_touch_device_flg == false){
+    if(is_small_screen_device == false){
       $(".articles-wrap").height(browser_height * 4);
     }
   }
@@ -60,12 +59,11 @@ $(function(){
     }
   }
 
-  function is_touch_device(){
-    var result = false;
-    if (window.ontouchstart === null) {
-      result = true;
+  function is_small_screen(){
+    if($(window).width() > 1024){
+      return false;
     }
-    return result;
+    return true;
   }
 
 });
