@@ -9,8 +9,10 @@ $(function(){
 
   // スクロールでの移動
   $(window).scroll(function(){
-      var target_article_no = Math.ceil(($(window).scrollTop()) / browser_height);
-      move_article(target_article_no);
+      if(is_small_screen_device != true){
+        var target_article_no = Math.ceil(($(window).scrollTop()) / browser_height);
+        move_article(target_article_no);
+      }
   });
 
   // ナビゲーションメニューからの移動
