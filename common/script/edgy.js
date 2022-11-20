@@ -1,6 +1,6 @@
 $(function(){
 
-  var browser_height = $(window).height();
+  var browser_height = window.innerHeight;
   var active_article_no = 0;
   var article_count = $("article").length -1;
   var is_small_screen_device = is_small_screen();
